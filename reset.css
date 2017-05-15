@@ -1,0 +1,617 @@
+ffhtml, body, div, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    padding-top:20px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff url('img/headerbg_white.png');
+   
+    font-family: 'Roboto', sans-serif;
+     
+}
+
+
+
+.site-banner {
+    height: 140px;
+    width: 100%;
+    background: transparent url(img/ab-logo.png) no-repeat top center;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    clear: both;
+    
+}
+
+.banneryazi {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: 'arial';
+}
+
+
+
+.ustmenu {
+    margin: 5px auto 55px auto;
+    background: #369;
+    height: 64px;
+    width: 90%;
+    color: #fff;
+    border-radius: 5px;
+    font-family: "Montserrat",sans-serif;
+    padding-left: 16px;
+	paddng-right: 10px;
+
+}
+
+    .ustmenu li {
+		
+        line-height: 64px;
+        height: 64px;
+		width: 16%;
+        display: inline-block;
+        padding: 0 10px;
+        float:left;
+        color:#fff;
+		text-align: center;
+font-size:18px;
+    }
+
+        .ustmenu li a {
+            text-decoration: none;
+            color:#fff;
+        }
+
+
+li span {
+    display: inline;
+}
+
+.ustmenu li:hover {
+    border-bottom-width: 4px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+}
+div {
+    display: block;
+}
+
+
+
+.duyurular {
+    width: 25%;
+    min-height: 300px;
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+
+
+#logo {
+    background: #333;
+    padding: 0 60px;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    border-radius: 50%;
+}
+
+    #logo:hover {
+        border-bottom: 0;
+    }
+
+#arama {
+    float: right;
+}
+
+.banner {
+    border: 1px solid black;
+    border-radius: 5px;
+    float: right;
+    clear: both;
+    width: 250px;
+    height: 250px;
+    background-color: #eee;
+}
+
+#orta {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#alt {
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    border-top:1px dotted skyblue;
+    
+    
+
+}
+
+#duyurular {
+    width: 35%;
+    background: rgba(255,255,255,0.6);
+    height: 370px;
+    float: left;
+    padding: 15px;
+        border-bottom:1px dotted skyblue;
+
+}
+
+#google_translate_element {float:right;}
+
+#ilgilisiteler {
+    width: 35%;
+   background: rgba(255,255,255,0.6);
+    min-height: 370px;
+    float: left;
+    padding: 15px;
+    border-left: 1px dotted skyblue;
+        border-bottom:1px dotted skyblue;
+        
+}
+
+#takvim {
+    width: 30%;
+   background: rgba(255,255,255,0.6);
+    min-height: 300px;
+    float: right;
+    padding: 15px;
+    border-left: 1px dotted skyblue;
+        border-bottom:1px dotted skyblue;
+        
+}
+
+#footer {
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    margin-top:20px;
+
+
+}
+
+.duyurumenu {
+    overflow: auto;
+}
+
+    .duyurumenu li {
+        overflow: hidden;
+        white-space: nowrap; /* tam sat�r olsun ... koysun kelimeleri alt sat�ra indirmesin */
+        text-overflow: ellipsis;
+        width: 100%;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+.duyurunot {
+    float: left;
+    text-align: left;
+    color: #369;
+    text-transform: uppercase;
+    width: 70%;
+    padding: 10px;
+}
+
+.arsivnot {
+    float: right;
+    width: 30%;
+    background: #eee;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+    .arsivnot:hover {
+        background: #333;
+        color: white;
+    }
+
+.duyurumenu li:hover {
+    cursor: pointer;
+}
+
+.duyurumenu a {
+    text-decoration: none;
+    color: black;
+}
+
+    .duyurumenu a:hover {
+        text-decoration: underline;
+    }
+
+.duyurumenu li:hover .tarihler {
+    background: #333;
+    color: white;
+}
+
+.duyurumenu li div {
+    display: inline-block;
+}
+
+.duyurumenu li .tarihler {
+    background: #eee;
+    padding: 10px;
+    font-size: 12px;
+    float: left;
+    width: 85px;
+    text-align: center;
+}
+
+.arama {
+    margin-top:18px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    transition: width 1s ease; /* ge�i� varsa width de 1saniyede ge�i� yap*/
+    width: 120px;
+    
+}
+
+
+.topnav button[type="submit"] {
+    border:0;
+    background:#fff;
+    color:black;
+    padding:5px;
+}
+
+    .arama:focus {
+        width: 150px;
+    }
+
+#arama button {
+    padding: 10px;
+    border: none;
+    background-color: #369;
+    color: white;
+}
+
+#listedis {
+    float: left;
+}
+
+    #listedis img {
+        width: 96px;
+        height: 96px;
+        position: relative;
+        transition: all 1s ease;
+    }
+
+        #listedis img:hover {
+            transform: scale(1.1);
+            a;
+        }
+
+    #listedis a {
+        position: relative;
+    }
+
+        #listedis a:hover:after {
+            font-size: 12px;
+            content: attr(data-aciklama);
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: #333;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            width: 76px;
+            z-index:999;
+            text-align:center;
+        }
+
+.yaziBaslik {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    float: left;
+    width: 50%;
+}
+
+.leftcontainer {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.duyurubaslik {
+    color: #0178B4;
+    font-size: 32px;
+    letter-spacing: 0em;
+    font-weight: 600;
+    line-height: 35px;
+    padding: 50px 0px 40px 0px;
+   
+}
+
+.duyururesim {
+    padding: 20px 0px 5px 0px;
+    text-align: center;
+}
+
+.duyurutarih {
+    color: #888888;
+    padding: 10px 0px 15px 0px;
+    font-family: AdobeClean-Light;
+    border-bottom: 1px solid #808080;
+}
+
+.duyuruicerik {
+    padding-top: 30px;
+    color: black;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+#arsivgenel {
+    width: 90%;
+    height:auto;
+    margin:0 auto;
+    background: rgba(255,255,255,0.6);
+    padding:30px;
+}
+
+#arsivgenel .ebaslik {
+    font-size:24px;
+    margin:20px;
+}
+
+#arsivicerikgenel {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#arsivicerik {
+    width: 100%;
+   
+    margin: 10px auto;
+    display:inline-block;
+    
+}
+
+
+
+#arsivicerik span {
+   padding:5px 10px;
+   background:#333;
+   color:#fff;
+}
+
+#arsivicerik a {
+    text-decoration:underline;
+   
+}
+
+#arsivicerik a span {
+    background:transparent;
+    color:black;
+}
+
+
+.deneme {
+    position:relative;
+}
+
+.acilir {
+    display:none;
+    background:skyblue;
+    text-align:center;
+  padding:0 10px;
+  position:absolute;
+  top:64px;
+  left:0;
+font-size: 14px;
+    z-index:999999999999999999999px;
+    width:200%;
+    -webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+
+    
+}
+.galerimlink {position:relative;}
+.deneme:hover .acilir ,.galerimlink:hover .acilir{
+    display:block;
+}
+
+
+
+.kutular {
+    display:inline-block;
+   margin:0 10px;
+}
+
+.amazingslider-title-1{
+    color:white;
+}
+
+footer {
+    width:100%;
+    margin:0px auto;
+    background:#fafafa;
+    
+    min-height:200px;
+    color:white;
+}
+#mobilmenu {
+    display:none;
+}
+
+.topnav {
+    width:90%;
+    margin:10px auto;
+    background-color: #369;
+    overflow: hidden;
+    border-radius:5px;
+    
+}
+
+.topnav {
+    background-color: #369;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform:uppercase;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: skyblue;
+    color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 1090px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 1090px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    #duyurular, #ilgilisiteler,#takvim {
+        width:100%;
+    }
+	
+    .ustmenu li {
+        display:none;
+    }
+    #anasayfa {
+        display:block;
+    }
+    
+    #arama button {
+        padding:0;
+    }
+   .ustmenu li {
+       padding:0;
+   }
+}
+
+footer .foot_logo { margin-top:1px; background:#FAFAFA; border-top:2px solid #369
+                    display:flex;
+                    flex-direction:row;
+                    justify-content:space-around;
+                    align-content:center;
+                    vertical-align:middle;
+                    padding:5px 0;
+                    transform:scale(0.8);
+}
+
+.foot_logo img {
+    margin:0 10px;
+}
+
+.announce {
+    text-align:center;
+    padding:20px;
+    background:#369;
+}
+
+.videoplay {position:relative}
+.videoplay::after {
+
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+content:"\f01d";
+position:absolute;
+top:100px;
+left:100px;
+font-size:36px;
+color:#fff;
+
+}

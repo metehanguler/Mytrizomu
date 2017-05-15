@@ -1,0 +1,145 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Omu Project and Innavation Youth Group</title>
+
+    <link rel="stylesheet" href="awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900|Roboto:100,300,400" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="genel">
+    <form id="form1" runat="server">
+        <div>
+            <div id="google_translate_element"></div>
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({ pageLanguage: 'tr', includedLanguages: 'de,en,fr,nl,ru', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+                }
+            </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <div class="site-banner"></div>
+
+            <ul class="banneryazi">
+                <li>Bu proje Avrupa Birliği ve Türkiye Cumhuriyeti tarafından finanse edilmektedir.</li>
+            </ul>
+            </
+        <!-- Burası sitenin üstü -->
+		
+            <header>
+			
+                <ul class="ustmenu">
+				
+					
+                    <a href="Default.aspx">
+                        <li id="anasayfa"><i class="fa fa-home" aria-hidden="true"></i>Anasayfa</li>
+                    </a>
+                    <li class="deneme"><i class="fa fa-info-circle" aria-hidden="true"></i> Hakkında 
+                        <div class="acilir">
+                            <div class="kutular">
+                                <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+                                <a href="hakkinda.aspx">Hakkında</a>
+                            </div>
+                            <div class="kutular">
+                                <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+                                <a href="projegrubu.aspx">Proje Grubu</a>
+                            </div>
+						
+
+                        </div>
+					
+						
+
+                    </li>
+                     <a href="ortaklar.aspx">
+                    <li><i class="fa fa-handshake-o" aria-hidden="true"></i>Ortaklar</li></a>
+                    <a href="etkinlikler.aspx">
+                        <li><i class="fa fa-calendar-check-o" aria-hidden="true"></i>Etkinlik</li>
+                    </a>
+                    <a href="">
+                        <li class="galerimlink"><i class="fa fa-th-large" aria-hidden="true"></i>Galeri
+                            <div class="acilir">
+                                <div class="kutular">
+                                    <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+                                    <a href="galeri.aspx">Resimler</a>
+                                </div>
+                                <div class="kutular">
+                                    <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+                                    <a href="galerivideo.aspx">Videolar</a>
+                                </div>
+ 
+                            </div>
+                        </li>
+                    </a>
+                    <a href="iletisim.aspx">
+                        <li id="iletisim"><i class="fa fa-phone" aria-hidden="true"></i>İletişim</li>
+                    </a>
+
+
+
+                </ul>
+    
+	</header>
+
+
+  
+</div>
+
+            
+           
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+    </div>
+    </form>
+    
+    <div style="clear: both;"></div>
+    <footer>
+        <div class="foot_logo">
+			
+
+           		<img src="footerresim/abbakanlik.png"> 
+				<img src="footerresim/merkez.png" />
+				<img src="footerresim/ualogo.jpg" />
+				<img src="footerresim/erasmus.jpg" />
+				<img src="footerresim/omulogo.png" />
+				<img src="footerresim/triz.jpg" />
+			
+		
+			
+
+
+        </div>
+        <div class="content">
+            <div class="social_widget">
+                <div class="announce">
+                    Bu websitesi Avrupa Birliği ve Türkiye Cumhuriyeti’nin mali desteğiyle üretilmiştir. Bu websitesinin içeriğinden sadece OMU Project and Innovation Youth Group adına Metin Yavuz sorumludur ve hiçbir şekilde Avrupa Birliği, Türkiye Cumhuriyeti veya Avrupa Birliği Bakanlığı’nın görüşlerini yansıttığı şeklinde yorumlanamaz.
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!--/ footer-->
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+</html>
